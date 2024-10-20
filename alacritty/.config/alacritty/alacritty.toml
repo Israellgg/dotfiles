@@ -1,0 +1,47 @@
+live_config_reload = true
+
+import = [
+        "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+[env]
+TERM = "screen-256color"
+
+[window]
+
+decorations = "transparent"
+dynamic_padding = false
+opacity = 0.9
+
+[window.dimensions]
+columns = 200
+lines = 40
+
+[window.padding]
+x = 10
+y = 10
+
+[font]
+size = 16
+
+[font.bold]
+family = "Hack Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "Hack Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "Hack Nerd Font"
+style = "Regular"
+
+[font.bold_italic]
+family = "Hack Nerd Font"
+style = "Bold Italic"
+
+[colors]
+
+[colors.primary]
+background = "0x282a36"  # Fundo preto-roxo
+
