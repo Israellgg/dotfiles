@@ -60,6 +60,6 @@ export PATH=$HOME/.local/bin:$HOME/.cargo/bin:$PATH
 alias k="kubectl"
 alias ls="exa --icons"
 alias bat="bat --style=auto"
-
+alias code="flatpak run com.visualstudio.code ."
 # To customize prompt, run `p10k configure` or edit ~/dotfiles/powerlevel10k/.p10k.zsh.
 [[ ! -f ~/dotfiles/powerlevel10k/.p10k.zsh ]] || source ~/dotfiles/powerlevel10k/.p10k.zsh
