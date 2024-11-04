@@ -40,6 +40,10 @@ style = "Regular"
 family = "Hack Nerd Font"
 style = "Bold Italic"
 
+[shell]
+program = "/usr/bin/tmux"
+args = ["new-session", "-A", "-s", "default"]
+
 [colors]
 
 [colors.primary]
