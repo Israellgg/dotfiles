@@ -1,14 +1,13 @@
+[general]
 live_config_reload = true
-
 import = [
-        "~/.config/alacritty/dracula.toml"
+    "~/.config/alacritty/dracula.toml"
 ]
 
 [env]
-TERM = "screen-256color"
+TERM = "xterm-256color"
 
 [window]
-
 decorations = "transparent"
 dynamic_padding = false
 opacity = 0.9
@@ -40,11 +39,9 @@ style = "Regular"
 family = "Hack Nerd Font"
 style = "Bold Italic"
 
-[shell]
+[terminal.shell]
 program = "/usr/bin/tmux"
 args = ["new-session", "-A", "-s", "default"]
-
-[colors]
 
 [colors.primary]
 background = "0x282a36"  # Fundo preto-roxo
