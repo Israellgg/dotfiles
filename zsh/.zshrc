@@ -51,6 +51,7 @@ source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh || echo "Zsh Autos
 source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh || echo "Zsh Syntax Highlighting not found!"
 source $HOME/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh || echo "Zsh History Substring Search not found!"
 source <(kubectl completion zsh)
+fpath=($HOME/.zsh $fpath)
 
 # Load custom Powerlevel10k config if it exists
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
